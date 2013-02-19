@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 		arial;
+}
+
+tbody tr:nth-child(even) td, tbody tr.even td {background:#e5ecf9;
+	
+.HeaderBox{
+	border:none;
+	background: url(IVR_bg.jpg) repeat-x #fff;
+	height:	80px;	
+}
+	
+.Headline {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #06F;
+	text-transform: uppercase;
+}
+		
+.title {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #600;
+	line-height: 22px;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+		
+.date { 
+	font-family: Georgia,"Times New Roman",serif;
+	font-size: 10px;
+	line-height: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+	
+body,td,th {
+	font-size: 12px;
+}
+
+a {
+	color: #09F;
+}
+
+a:hover {
+	color: #00C;
+}
+.l_blue {background-color:#D5E4FD; }
+.box {padding:1.5em;margin-bottom:1.5em;}
+.box2 {padding:1.5em;margin-bottom:1.5em; background-color:#e3ebf1;}
+

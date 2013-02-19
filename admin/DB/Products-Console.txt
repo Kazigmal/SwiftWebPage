@@ -1,0 +1,14 @@
+CREATE TABLE  `products` (
+ `id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+ `account_id` INT( 10 ) NULL ,
+ `user_id` INT( 10 ) NULL ,
+ `userName` VARCHAR( 50 ) NULL ,
+ `productName` VARCHAR( 50 ) NULL ,
+ `unlockCode` VARCHAR( 15 ) NULL ,
+ `activations` INT( 5 ) NULL ,
+ `machines` INT( 5 ) NULL ,
+ `expireDate` DATE NULL ,
+ `active` ENUM(  '0',  '1' ) NULL ,
+ `users` INT( 2 ) NULL ,
+ `new` INT( 1 ) NULL
+) ENGINE = MYISAM ;

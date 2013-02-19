@@ -1,0 +1,14 @@
+CREATE TABLE  `customers` (
+ `id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+ `acnt_id` INT( 10 ) NULL ,
+ `name` VARCHAR( 50 ) NULL ,
+ `address` TEXT NULL ,
+ `email` VARCHAR( 50 ) NULL ,
+ `phone1` VARCHAR( 14 ) NULL ,
+ `phone2` VARCHAR( 14 ) NULL ,
+ `phone3` VARCHAR( 14 ) NULL ,
+ `business` VARCHAR( 255 ) NULL ,
+ `password` VARCHAR( 50 ) NULL ,
+ `security` VARCHAR( 255 ) NULL ,
+ `type` ENUM(  'isAdmin',  'isUser' ) NULL
+) ENGINE = MYISAM ;

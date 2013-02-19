@@ -1,0 +1,7 @@
+CREATE TABLE  `admins` (
+ `id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+ `name` VARCHAR( 50 ) NULL ,
+ `password` VARCHAR( 50 ) NULL ,
+ `initials` VARCHAR( 3 ) NULL ,
+ `level` ENUM(  'superadmin',  'admin' ) NULL
+) ENGINE = MYISAM ;

@@ -1,0 +1,9 @@
+CREATE TABLE  `notes` (
+ `id` INT( 10 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+ `customer_id` INT( 10 ) NULL ,
+ `admin_id` INT( 10 ) NULL ,
+ `content` TEXT NULL ,
+ `date_add` DATETIME NULL ,
+ `date_mod` DATETIME NULL ,
+ `admin_init` VARCHAR( 3 ) NULL 
+) ENGINE = MYISAM 
